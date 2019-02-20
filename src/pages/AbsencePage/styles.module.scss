@@ -1,0 +1,30 @@
+@import '../../styles/global.scss';
+
+.absenceInfoCard {
+    margin-bottom: 25px;
+}
+
+.absencePage {
+    padding: 25px;
+}
+
+.documentListCard {
+    margin-bottom: 25px;
+}
+
+.leftColumn {
+    margin-right: 25px;
+    width: calc(60% - 25px);
+}
+
+.rightColumn {
+    width: 40%;
+}
+
+.row {
+    display: flex;
+}
+
+.timelineCard {
+    height: 100%;
+}

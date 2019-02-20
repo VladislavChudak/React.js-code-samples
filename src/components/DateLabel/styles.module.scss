@@ -1,0 +1,17 @@
+@import '../../styles/global.scss';
+
+.dateLabel {
+    align-items: center;
+    color: $dateLabelTextColor;
+    display: flex;
+    font-size: 16px;
+}
+
+.dateText {
+    font-size: 16px;
+}
+
+.text {
+    margin-right: 15px;
+    width: 80px;
+}

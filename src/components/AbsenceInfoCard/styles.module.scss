@@ -1,0 +1,36 @@
+@import '../../styles/global.scss';
+
+.cardBody {
+    padding: 15px 15px 30px 30px;
+}
+
+.dates {
+    margin-right: 20px;
+}
+
+.dateLabel {
+    &:first-child {
+        margin-bottom: 25px;
+    }
+}
+
+.details {
+    display: block;
+}
+
+.detailsTitle {
+    color: $disabilityCardDetailsTitleColor;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.detailsText {
+    color: $disabilityCardDetailsTextColor;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+@import '../../styles/global.scss';
+
+.absenceLink {
+    color: $paymentScheduleCardAbsenceLinkColor;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.cardBody {
+    padding: 35px;
+}
+
+.cardBodyTitle {
+    margin-bottom: 40px;
+}
+
+.chart {
+    margin-bottom: 30px;
+}
+
+.list {
+    margin-bottom: 35px;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.weeks {
+    font-weight: 600;
+    padding: 0 5px;
+}

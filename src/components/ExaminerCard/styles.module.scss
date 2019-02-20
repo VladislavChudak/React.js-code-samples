@@ -1,0 +1,28 @@
+@import '../../styles/global.scss';
+
+.examinerCard {
+    align-items: flex-start;
+    background: $examinerCardBackground;
+    border: 10px solid $examinerCardBorderColor;
+    display: flex;
+    flex-direction: column;
+    height: 127px;
+    justify-content: space-between;
+    padding: 15px 25px;
+    width: 435px;
+}
+
+.examiner {
+    color: $examinerNameTextColor;
+    font-size: 16px;
+}
+
+.examinerNameTitle {
+    letter-spacing: 1px;
+}
+
+.examinerName {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+}
